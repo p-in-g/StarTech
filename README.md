@@ -11,7 +11,7 @@ Our documnet includes the following content:
 
 4. Smart fraud prevention 
 
-5. AI Usage
+5. AI Usage & Tech Stack
 
 6. System workflow
 
@@ -149,7 +149,7 @@ Our system incorporates multiple layers of risk management to ensure financial s
 Together, these mechanisms ensure that the system remains robust, scalable, and trustworthy under varying real-world conditions.
 
 
-### 5. AI Usage in the model 
+### 5. I) AI Usage in the model 
 
 1. **Risk Prediction** (Multi-factor ML Model) The ML model ingests real-time and historical signals — weather forecasts, AQI levels, platform demand data, mobility alerts, and location-specific risk — to output a composite Risk Score for each user. This drives the weekly premium dynamically rather than using fixed pricing tiers.
 2. **Income Estimation** A regression model estimates each worker's expected weekly income based on historical delivery frequency, active hours, average earnings per delivery, and time-of-week patterns. 
@@ -161,6 +161,17 @@ Together, these mechanisms ensure that the system remains robust, scalable, and 
    3.  ML frameworks: TensorFlow/Keras for anomaly detection
    4.  Forecasting: LSTM for disruption day prediction
 
+II) Expected Tech Stack
+
+Frontend → React Native
+
+Backend → Node.js (Express)
+
+ML → Python (basic models)
+
+DB → PostgreSQL 
+
+APIs → OpenWeatherMap
 
 ### 6. System Workflow
 
