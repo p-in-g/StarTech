@@ -15,6 +15,8 @@ Our documnet includes the following content:
 
 6. System workflow
 
+7. **Adversarial Defense & Anti-Spoofing Strategy**
+
 ### 1. Problem Understanding
 
 Gig workers, such as delivery partners and service providers, rely heavily on **daily earnings **rather than **fixed salaries**. Their income is highly vulnerable to **external, uncontrollable factors** such as extreme weather conditions, poor air quality, and government-imposed restrictions.
@@ -216,4 +218,39 @@ Together, these mechanisms ensure that the system remains robust, scalable, and 
       Did they show normal delivery behavior?
     If conditions are satisfied:
       Payout = Coverage × Number of Disruption Days
+
+
+### 7. Adversarial Defense & Anti-Spoofing Strategy
+
+After reading the we were clear of the doubt of whether something can go wrong in our systemor not :
+
+To tackle the challenge specified in the given document our system follows:
+  
+      A ‘trust but verify’ approach, combining automation with intelligent validation to ensure both security and fairness.
+      
+To ensure robust detection, the system analyzes multiple data points beyond GPS:
+      
+    1. Accelerometer data : Detects real physical movement
+    2. Network signal variation : Real users show fluctuating signal strength
+    3. App activity logs : Order acceptance, navigation usage
+    4. Delivery platform data : Number of deliveries, timestamps
+    5. Historical behavior patterns : Usual working hours and zones
+    6. Weather vs activity mismatch : Active location must align with realistic behavior
+
+The system uses AI models to identify anomalies such as:
+
+    1. Sudden location shifts without corresponding movement
+    2. Users marked “active” but with no delivery activity
+    3. Identical movement patterns across multiple users
+    4. Presence in high-risk zones without realistic behavioral signals
+    5. Each user is assigned a trust score, and payouts are only processed if the score meets a predefined threshold.
+
+
+
+
+
+
+
+
+
    
