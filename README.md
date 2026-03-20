@@ -151,17 +151,15 @@ Together, these mechanisms ensure that the system remains robust, scalable, and 
 
 ### 5. AI Usage in the model 
 
-// Risk prediction
-
-// risk calculation on the basis of the factors.
-
-// Auto payouts
-
-// where will we get our moel from
-
-// expected Ai models used
-
-// predictive disruption days, and coverage.
+1. **Risk Prediction** (Multi-factor ML Model) The ML model ingests real-time and historical signals — weather forecasts, AQI levels, platform demand data, mobility alerts, and location-specific risk — to output a composite Risk Score for each user. This drives the weekly premium dynamically rather than using fixed pricing tiers.
+2. **Income Estimation** A regression model estimates each worker's expected weekly income based on historical delivery frequency, active hours, average earnings per delivery, and time-of-week patterns. 
+3. **Anomaly Detection & Fraud Prevention** An unsupervised model monitors user behavior — GPS traces, accelerometer data, delivery timestamps, app activity — to flag suspicious patterns like GPS spoofing, synthetic activity, or coordinated fraud across multiple users. 
+4. **Automated Payout Triggering** A rule-based AI layer continuously monitors real-time data streams against predefined disruption thresholds (e.g., rainfall > 50mm/day, AQI > 400, curfew alerts). When thresholds are crossed and user activity is verified, payouts are triggered automatically — no manual claims needed.
+5. **Model Sources & Stack**
+•	Weather/AQI data: OpenWeatherMap
+•	Demand signals: Simulated platform APIs (Zomato/Swiggy)
+•	ML frameworks: TensorFlow/Keras for anomaly detection
+•	Forecasting: LSTM for disruption day prediction
 
 
 ### 6. System Workflow
