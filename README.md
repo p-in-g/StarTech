@@ -7,11 +7,11 @@ Our documnet includes the following content:
 
 2. Specific persona-based solution idea
 
-3. AI Usage
+3. Expected weekly pricing model(Architecture)
 
-4. Expected weekly pricing model(Architecture)
+4. Smart fraud prevention 
 
-5. Smart fraud prevention 
+5. AI Usage
 
 6. System workflow
 
@@ -70,10 +70,7 @@ Instead of relying on manual claims, the model:
 This creates a transparent and unbiased loss recovery mechanism that supports workers without requiring complex claim processes.
 
 
-### 3. AI Usage in the model 
-
-
-### 4. Expected Weekly pricing model
+### 3. Expected Weekly pricing model
 
 Traditional salaried employees benefit from built-in income stability through fixed wages, paid leave, and employer-backed risk absorption. 
 These mechanisms ensure that temporary disruptions do not directly impact their earnings.
@@ -125,14 +122,14 @@ Instead of fixed pricing, the system calculates a weekly premium based on expect
 
 **6. Expected Disruption Days** : Estimated using historical patterns and short-term forecasts (e.g., predicted rainy days, high AQI alerts, or known restriction periods)
 
-**7. Risk Buffers : Extra money kept aside to handle unexpected or higher-than-predicted payouts. To avoid the system to collapse.
+**7. Risk Buffers** : Extra money kept aside to handle unexpected or higher-than-predicted payouts. To avoid the system to collapse.
 
 Payouts are triggered automatically when predefined conditions are met, eliminating the need for manual claims.
 
                          Payouts will be triggered only when the user is active during the disrupted day.
 
 
-### 5. Smart Fraud Prevention
+### 4. Smart Fraud Prevention
 
 Our system incorporates multiple layers of risk management to ensure financial sustainability, prediction accuracy, and fair usage
 
@@ -148,6 +145,22 @@ Our system incorporates multiple layers of risk management to ensure financial s
 **User fairness** is maintained by avoiding strict rejections and instead using review mechanisms and partial payouts to support genuine users.
 
 Together, these mechanisms ensure that the system remains robust, scalable, and trustworthy under varying real-world conditions.
+
+
+### 5. AI Usage in the model 
+
+// Risk prediction
+
+// risk calculation on the basis of the factors.
+
+// Auto payouts
+
+// where will we get our moel from
+
+// expected Ai models used
+
+// predictive disruption days, and coverage.
+
 
 ### 6. System Workflow
 
@@ -201,6 +214,6 @@ Together, these mechanisms ensure that the system remains robust, scalable, and 
     Before payout, system checks:
       Was the user active during disruption?
       Did they show normal delivery behavior?
-      If conditions are satisfied:
-        Payout = Coverage × Number of Disruption Days
+    If conditions are satisfied:
+      Payout = Coverage × Number of Disruption Days
    
