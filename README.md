@@ -1,4 +1,4 @@
-# StarTech
+# StarTech - GigSure
 Solution for Guidewire DEVTrails Hackathon - Phase 1
 
 Our documnet includes the following content:
