@@ -156,10 +156,10 @@ Together, these mechanisms ensure that the system remains robust, scalable, and 
 3. **Anomaly Detection & Fraud Prevention** An unsupervised model monitors user behavior — GPS traces, accelerometer data, delivery timestamps, app activity — to flag suspicious patterns like GPS spoofing, synthetic activity, or coordinated fraud across multiple users. 
 4. **Automated Payout Triggering** A rule-based AI layer continuously monitors real-time data streams against predefined disruption thresholds (e.g., rainfall > 50mm/day, AQI > 400, curfew alerts). When thresholds are crossed and user activity is verified, payouts are triggered automatically — no manual claims needed.
 5. **Model Sources & Stack**
-    •	Weather/AQI data: OpenWeatherMap
-    •	Demand signals: Simulated platform APIs (Zomato/Swiggy)
-    •	ML frameworks: TensorFlow/Keras for anomaly detection
-    •	Forecasting: LSTM for disruption day prediction
+   •	Weather/AQI data: OpenWeatherMap
+   •	Demand signals: Simulated platform APIs (Zomato/Swiggy)
+   •	ML frameworks: TensorFlow/Keras for anomaly detection
+   •	Forecasting: LSTM for disruption day prediction
 
 
 ### 6. System Workflow
