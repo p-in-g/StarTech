@@ -163,15 +163,11 @@ Together, these mechanisms ensure that the system remains robust, scalable, and 
 
 II) Expected Tech Stack
 
-Frontend → React Native
-
-Backend → Node.js (Express)
-
-ML → Python (basic models)
-
-DB → PostgreSQL 
-
-APIs → OpenWeatherMap
+    Frontend → React Native
+    Backend → Node.js (Express)
+    ML → Python (basic models)
+    DB → PostgreSQL 
+    APIs → OpenWeatherMap
 
 ### 6. System Workflow
 
